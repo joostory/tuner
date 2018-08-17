@@ -1,0 +1,30 @@
+{
+  "name": "tuning",
+  "version": "1.0.0",
+  "description": "Tuning App",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "test": "jest"
+  },
+  "keywords": [
+    "tuning"
+  ],
+  "author": "Joo <joo@joostory.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "autobind-decorator": "^2.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
